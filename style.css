@@ -1,4 +1,44 @@
 /*index.css*/
+html, body {
+    height: 100%;
+    background-color: #e4e4e4;
+  }
+
+.container {
+  background-color: aqua;
+    font-family: orbitron;
+  border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50%;
+    max-width: 500px;
+    
+  }
+
 h2 {
-    color: blue;
+    font-family: orbitron;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+    
+  }
+
+input {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+
+.delete {
+    margin-right: 5px;
+  }
+
+  #create-task {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
   }
